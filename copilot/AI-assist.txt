@@ -17,4 +17,4 @@ Yes, I do have a few suggestions to improve this code:
 4. Code Comments: While the code is generally well-commented, it could be beneficial to add a few more comments explaining the more complex parts of the code, such as the calculation of the manual linear regression.
 
 Here's how the code might look with these improvements:
-Code is provide in go file within copiolt directory
+Code is provided in go file within the copilot directory
