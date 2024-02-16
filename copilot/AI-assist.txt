@@ -1,0 +1,20 @@
+Using Github copilot in VS code:
+
+User - Q:
+ 
+Do you have suggestions to improve upon this code?
+
+copilot - A: 
+
+Yes, I do have a few suggestions to improve this code:
+
+1. Error Handling: The current error handling in the code just prints the error and continues with the next iteration. Depending on the severity of the error and the requirements of your program, you might want to handle these errors more robustly. For example, you could decide to stop the program entirely if an error occurs, or you could log the error to a file for later analysis.
+
+2. Code Duplication: There's some code duplication in the calculation of the manual linear regression. You could create a helper function to calculate the sum of the numerator and denominator.
+
+3. Variable Naming: The variable names sumNum and sumDenom are not very descriptive. Consider renaming these to something more descriptive, like sumNumerator and sumDenominator.
+
+4. Code Comments: While the code is generally well-commented, it could be beneficial to add a few more comments explaining the more complex parts of the code, such as the calculation of the manual linear regression.
+
+Here's how the code might look with these improvements:
+Code is provide in go file within copiolt directory
