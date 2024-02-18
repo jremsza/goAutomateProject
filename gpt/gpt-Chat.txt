@@ -81,3 +81,23 @@ Sure! Here's a Go program that uses the gonum/matrix package to build a linear r
 See gptStats.go for code output
 
 This program uses the gonum/matrix package to perform linear regression on the Anscombe dataset and calculates additional statistics such as R-squared. You can further expand it to include more statistics as needed.
+
+---------------------------------
+Improve Upon Original Code:
+
+Q:
+ Do you have suggestions to improve upon this code? Is it necessary to take a different approach find the linear coefficients and r-squared for the Anscombe dataset? 
+
+A:
+Your current code is quite comprehensive and provides a good starting point for analyzing the Anscombe dataset. However, there are a few suggestions to improve and potentially simplify the code:
+
+Calculate Residuals: You can calculate the residuals directly from the linear regression results. Residuals are the differences between the observed and predicted values of the dependent variable (y). Including residuals in the output can provide additional insights into the model's performance.
+
+Calculate Standard Error: Standard error is a measure of the accuracy of the regression coefficients. It indicates the average distance that the observed values fall from the regression line. Calculating and including standard error in the output can help assess the reliability of the regression coefficients.
+
+Simplify Manual Calculation: Instead of manually calculating the regression coefficients, you can use the ones obtained from the linear regression package and compare them directly.
+
+Consolidate Output: You can consolidate the output to provide a clear summary of the linear regression results, including coefficients, R-squared, residuals, and standard error.
+
+
+The code suggested is found in the goStats2.go file
